@@ -134,5 +134,5 @@ while 1:
     os.chdir(".")
     for file in glob.glob("*.docx"):
         shutil.move(file , "documents")
-
+print('done')
 #end of moving documents
